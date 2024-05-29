@@ -15,6 +15,7 @@ body {
 
 #next-view {
   font-size: 20px;
+  position: absolute;
 }
 
 @keyframes pop-out {
