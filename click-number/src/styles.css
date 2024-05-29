@@ -7,7 +7,7 @@ body {
   font-size: 30px;
   position: absolute;
   cursor: pointer;
-  transition: 0.1s;
+  transition: 0.3s;
 }
 .circle:hover {
   box-shadow: 0px 0px 30px rgba(7, 75, 63, 0.458);
@@ -15,4 +15,47 @@ body {
 
 #next-view {
   font-size: 20px;
+}
+
+@keyframes pop-out {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+.pop-out {
+  animation: pop-out 0.3s forwards;
+}
+
+@keyframes congratulations {
+  0% {
+    transform: translate(-100%, -100%) scale(0);
+    opacity: 0;
+    color: red;
+  }
+  50% {
+    transform: translate(25%, 25%) scale(1.2);
+    opacity: 0.7;
+    color: orange;
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+    color: green;
+  }
+}
+
+.congratulations {
+  animation: congratulations 2s forwards;
+  font-size: 2em;
+  font-weight: bold;
 }
