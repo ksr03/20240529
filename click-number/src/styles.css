@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+}
+
+.circle {
+  border: 2px solid white;
+  font-size: 30px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.circle:hover {
+  box-shadow: 0px 0px 30px rgba(7, 75, 63, 0.458);
+}
+
+#next-view {
+  font-size: 20px;
+}
