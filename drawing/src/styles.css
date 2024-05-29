@@ -1,0 +1,9 @@
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+canvas {
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNM-hZW8BIMW5UpaFzeoJ1xG4_ZPqjYndL_QSPqFgDLs2cvCHY-9Tv6lgBq5MpUNRvHdclJLMg2dB47TmwIuTInLOzBaj_QyR2pxSEtLyRtzzilG0D0hg_w0X9FA5s0c87NVbxdcfLFjg/s530/chikyuu.png");
+  object-fit: cover;
+}
